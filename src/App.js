@@ -487,6 +487,7 @@ import FuelConsumption from './pages/FuelConsumption'; // Import FuelConsumption
 import TripScheduling from './pages/TripScheduling'; // Import TripScheduling
 import Maintenance from './pages/Maintenance'; // Import Maintenance
 import Alerts from './pages/Alerts'; // Import Alerts
+import { BrowserRouter as Router } from "react-router-dom";
 
 const App = () => {
   const [isAuthenticated, setIsAuthenticated] = useState(!!localStorage.getItem('authToken'));
